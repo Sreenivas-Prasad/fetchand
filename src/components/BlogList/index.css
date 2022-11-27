@@ -1,0 +1,7 @@
+/* Write your CSS code here */
+.for-border {
+  border: 1px solid #d3d3d3;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px;
+}

@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.name-image {
+  display: flex;
+  flex-direction: row;
+}
+.item-de {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head-de {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 18px;
+}
+.image-de {
+  height: 150px;
+}
+
+@media (min-width: 768px) {
+  .image-de {
+    height: 40vh;
+    width: 80%;
+  }
+  .head-de {
+    font-size: 39px;
+  }
+}
